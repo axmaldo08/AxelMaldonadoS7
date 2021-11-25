@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AxelMaldonadoS7.Elemento">
+    <ContentPage.Content>
+        <StackLayout Spacing="10" Padding="10">
+
+            <Label x:Name="mensaje" />
+            <Entry x:Name="txtNombre" Placeholder="Ingrese el nombre" HorizontalTextAlignment="Center"/>
+            <Entry x:Name="txtUsuario" Placeholder="Ingrese el usuario" HorizontalTextAlignment="Center"/>
+            <Entry x:Name="txtContrasenia" Placeholder="Ingrese la contraseña" HorizontalTextAlignment="Center" IsPassword="True"/>
+
+            <Button x:Name="btnActualizar" Text="Actualizar" Clicked="btnActualizar_Clicked" BackgroundColor="LawnGreen" />
+            <Button x:Name="btnEliminar" Text="Eliminar" Clicked="btnEliminar_Clicked" BackgroundColor="Red" />
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
